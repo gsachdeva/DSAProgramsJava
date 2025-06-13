@@ -1,4 +1,4 @@
-package com.dsa.arrays;
+package com.dsa.arrayproblems;
 
 public class MoveAllZeroToEnd {
     public static void main(String[] args){
