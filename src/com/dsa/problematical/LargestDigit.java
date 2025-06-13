@@ -1,4 +1,4 @@
-package BasicMathProblems;
+package com.dsa.problematical;
 
 public class LargestDigit {
     public static void main(String[] args){

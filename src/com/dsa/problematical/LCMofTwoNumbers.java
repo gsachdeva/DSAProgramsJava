@@ -1,4 +1,4 @@
-package BasicMathProblems;
+package com.dsa.problematical;
 
 public class LCMofTwoNumbers {
     public static void main(String[] args){

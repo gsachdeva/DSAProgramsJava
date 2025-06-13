@@ -1,4 +1,4 @@
-package BasicMathProblems;
+package com.dsa.problematical;
 
 public class PrimeNumber {
     public static void main(String[] args){
