@@ -1,4 +1,4 @@
-package com.dsa.arrays.starpatterns;
+package com.dsa.starpatterns;
 
 public class RightHalfPyramidPattern {
     public static void main(String[] args){

@@ -2,7 +2,7 @@ package com.dsa.arrayproblems;
 
 public class SecondLargestNumber {
     public static void main(String[] args) {
-        int[] arr = { 12, 35, 1, 10, 34, 1 };
+        int[] arr = { 12, 35, 1, 10, 38, 1 };
         int size=arr.length;
         System.out.println(getSecondLargest(arr,size));
     }

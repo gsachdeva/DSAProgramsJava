@@ -1,4 +1,4 @@
-package com.dsa.arrays.PracticeProblemsEasyLevel;
+package com.dsa.practicabilities;
 /*
 You are tasked with writing a simple program that prints a given number multiple times on a single line, with each
 occurrence separated by a space. The program will receive two integers as input:

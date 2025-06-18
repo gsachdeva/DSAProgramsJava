@@ -1,4 +1,4 @@
-package com.dsa.arrays.PracticeProblemsEasyLevel;
+package com.dsa.practicabilities;
 
 import java.util.Scanner;
 

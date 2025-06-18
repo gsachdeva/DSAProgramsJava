@@ -1,4 +1,4 @@
-package com.dsa.arrays.PracticeProblemsEasyLevel;
+package com.dsa.practicabilities;
 /*
 
 In this problem, you need to write a program that outputs all even numbers from 1 to a given integer ( n ).
