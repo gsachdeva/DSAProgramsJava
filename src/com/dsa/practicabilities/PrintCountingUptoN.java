@@ -1,4 +1,4 @@
-package com.dsa.arrays.PracticeProblemsEasyLevel;
+package com.dsa.practicabilities;
 /*
 You are tasked with creating a simple
 function that will help in generating a

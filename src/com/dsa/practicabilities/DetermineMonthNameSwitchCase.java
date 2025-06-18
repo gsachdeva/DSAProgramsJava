@@ -1,4 +1,4 @@
-package com.dsa.arrays.PracticeProblemsEasyLevel;
+package com.dsa.practicabilities;
 /*
 In this problem, you are required to implement a function that converts a given integer representing a month into its
 corresponding month name. You will achieve this using a switch-case statement. Your function should accept integers

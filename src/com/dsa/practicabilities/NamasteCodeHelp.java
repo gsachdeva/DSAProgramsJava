@@ -1,4 +1,4 @@
-package com.dsa.arrays.PracticeProblemsEasyLevel;
+package com.dsa.practicabilities;
 
 public class NamasteCodeHelp {
     public static void main(String[] main){

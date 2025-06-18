@@ -1,4 +1,4 @@
-package com.dsa.arrays.PracticeProblemsEasyLevel;
+package com.dsa.practicabilities;
 /*
 Given an integer n, write a program to print all numbers from n down to 1 in
 descending order. Each number should be separated by a space, and all the numbers

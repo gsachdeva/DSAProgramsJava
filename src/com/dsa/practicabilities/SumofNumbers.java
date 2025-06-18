@@ -1,4 +1,4 @@
-package com.dsa.arrays.PracticeProblemsEasyLevel;
+package com.dsa.practicabilities;
 /*
 In this problem, you are required to compute the sum of a specified number of integer inputs.
 First, you will provide an integer n, which will determine the number of subsequent integer inputs.

@@ -1,4 +1,4 @@
-package com.dsa.arrays.javanumberprograms;
+package com.dsa.javanumberprograms;
 
 public class SwapNumbers {
     public static void main(String[] args){

@@ -1,11 +1,10 @@
-package com.dsa.arrays.PracticeProblemsEasyLevel;
+package com.dsa.practicabilities;
 /*
 You are tasked with writing a program that
 calculates the average of three integers.
 Given three integers a, b, and c, your program should compute their average with an integer division,
 which means that the division should discard any decimal points.
 */
-//Problem 198 - Codehelp
 public class AverageThreeNumbers {
     public static void main(String[] args) throws java.lang.Exception
     {
