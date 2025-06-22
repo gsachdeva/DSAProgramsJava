@@ -8,17 +8,30 @@ public class ShiftArrayToOneElement {
         }
         public static void printNewArrayAfterShift(int[] arr,int size)
         {
-            int lastElement=arr[size-1];
-            int secondLastElement=arr[size-2];
-            int thirdLastElement=arr[size-3];
-            for(int i=size-1;i>=0;i--){
-                if(i>3){
-                    arr[i]=arr[i-3];
-                }else{
-                    arr[i-2]=secondLastElement;
-                    arr[i-3]=thirdLastElement;
-                    arr[i]=lastElement;
-                }
+            int k = 3;
+
+            int n = arr.length;
+            k = k % n;
+
+            // Temporary array to hold last k elements
+            int[] temp = new int[k];
+            for (int i = 0; i < k; i++) {
+                temp[i] = arr[n - k + i];
+            }
+
+            // Shift elements to the right
+            for (int i = n - 1; i >= k; i--) {
+                arr[i] = arr[i - k];
+            }
+
+            // Put temp elements in the beginning
+            for (int i = 0; i < k; i++) {
+                arr[i] = temp[i];
+            }
+
+            // Print rotated array
+            for (int num : arr) {
+                System.out.print(num + " ");
             }
         }
 }
