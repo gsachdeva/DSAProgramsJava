@@ -23,8 +23,8 @@ public class FirstOccuranceBinarySearch {
     }
 
     public static void main(String[] args) {
-        int[] arr = {1, 2, 4, 4, 4, 5, 6};
-        int target = 4;
+        int[] arr = {0, 0, 0, 0, 0, 1, 1, 1, 1, 1};
+        int target = 1;
         int index = firstOccurrence(arr, target);
 
         if (index != -1)
