@@ -75,11 +75,10 @@ Ranks: `{1, 2, 3, 4}` | Pratas needed = 10
 
 ## 🔥 Practice Next
 
+* ✅ Eko Spoj
 * ✅ Aggressive Cows
 * ✅ Book Allocation
 * ✅ Painter Partition Problem
 * ✅ Allocate Minimum Number of Pages
 
 ---
-
-You're now ready to crack **Binary Search on Answer** problems like a pro 💪
