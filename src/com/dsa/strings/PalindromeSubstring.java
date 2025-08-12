@@ -14,10 +14,7 @@ public class PalindromeSubstring {
         int count = 0;
 
         for(int i = 0;i<n;i++){
-            //Expansion for odd no. strings
             expandFromCenter(input,i,i);
-
-            // Expansion for even no. strings
             expandFromCenter(input,i,i+1);
         }
     }
