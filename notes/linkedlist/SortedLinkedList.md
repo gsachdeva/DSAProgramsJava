@@ -23,7 +23,7 @@ Given the head of a singly linked list, reorder the nodes so that their values a
 
 - **Naïve (Bubble/Insertion on list):** Simple but **O(n²)** time; fine for very small lists only.  
 - **Convert to Array, Sort, Rebuild:** **O(n log n)** time but **O(n)** extra memory; also breaks node identity in some contexts.  
-- **Merge Sort on Linked List (Recommended):** **O(n log n)** time, **O(1)** extra list storage (ignoring recursion stack), stable, and pointer-friendly.
+- **Merge Sort on Linked List (Recommended):** **O(n log n)** time, **O(1)** extra list storage (ignoring recursion mainStack), stable, and pointer-friendly.
 
 > If you must keep node objects intact and minimize extra memory, use merge sort directly on the list.
 
@@ -63,7 +63,7 @@ On even-length lists, decide which middle to return:
 ## 7) Complexity
 
 - **Time:** `O(n log n)` due to the divide (log n levels) and linear merges.  
-- **Extra Space:** `O(1)` auxiliary list storage; recursion adds `O(log n)` stack depth.  
+- **Extra Space:** `O(1)` auxiliary list storage; recursion adds `O(log n)` mainStack depth.  
 - **Stability:** Yes, if ties prefer the left half during merge.
 
 ---
