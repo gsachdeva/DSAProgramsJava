@@ -37,7 +37,7 @@ Reversing a linked list is a very common interview question. It tests your under
   4. Return the new head from recursion.
 
 - **Time Complexity:** O(n)  
-- **Space Complexity:** O(n) (because of recursion stack)
+- **Space Complexity:** O(n) (because of recursion mainStack)
 
 ---
 
