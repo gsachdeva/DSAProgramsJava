@@ -1,4 +1,4 @@
-package com.dsa.DP;
+package com.dsa.DP.HouseRobber;
 
 /**
  * Author: Gaurav Sachdeva
